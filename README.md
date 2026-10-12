@@ -9,11 +9,11 @@
 
 把 Obsidian 里的 Markdown 笔记一键导出为**图片**：既能导出按比例自动分页的**多页卡片**（小红书 3:4、抖音 9:16、方形 1:1、通用 4:5），也能导出一张到底的**完整长图**。
 
-它不是某个平台的专用发布器，而是一个通用的「**笔记 → 图片**」导出工具：小红书、抖音、公众号配图、手帐卡片、教程长图、读书笔记、资料归档……都可以用同一套排版完成。左边调整参数，右边实时预览，确认后点一次导出即可。
+它不是某个平台的专用发布器，而是一通用的「**笔记 → 图片**」导出工具：小红书、抖音、公众号配图、手帐卡片、教程长图、读书笔记、资料归档……都可以用同一套排版完成。左边调整参数，右边实时预览，确认后点一次导出即可。
 
 解析、排版、分页与截图全部在本地完成，笔记内容不会上传（详见[隐私](#隐私)）。桌面端与移动端均可用；macOS 上还能把笔记里的动态素材导出为实况照片（Live Photos）。
 
-插件 id：`export-md-notes`（原名 xhs-longform）
+插件 id：`export-md-notes`
 
 ---
 
@@ -289,7 +289,7 @@ It is **not** a publisher for any single platform — it is a general-purpose **
 
 Parsing, typesetting, pagination and capture all run locally; your notes are never uploaded (see [Privacy](#privacy)). It works on desktop and mobile, and on macOS can export embedded motion content as Live Photos.
 
-Plugin id: `export-md-notes` (formerly xhs-longform).
+Plugin id: `export-md-notes` 
 
 ## Showcase
 
