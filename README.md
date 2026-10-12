@@ -1,17 +1,33 @@
 # Export MD notes
 
-Obsidian 插件：把 Markdown 笔记一键导出为**小红书风格长图**或**分页卡片**。桌面端与移动端均支持；macOS 可导出 Live Photos。
+Obsidian 插件：把 Markdown 笔记一键导出为**自定义风格长图**或**分页卡片小红书3/4、抖音9/16风格、1/1等**。桌面端与移动端均支持；macOS 可导出 Live Photos。
 
-插件 id：`export-md-notes`（原名 xhs-longform）
+插件 id：`export-md-notes`
 
 ## 功能特性
 
 - **长图导出**：单张完整长图，支持作者栏、水印、纹理背景、主题色、自定义字体
-- **分页卡片导出**：按卡片尺寸自动分页，支持页码选择导出（png/jpg/pdf 等格式）
+- **多尺寸分页卡片导出**：按卡片尺寸自动分页，支持页码选择导出（png/jpg/pdf 等格式）
 - **视频封面**：自动拉取 B 站、YouTube、抖音视频封面（拉不到时保留原生播放器）
 - **Dataview 渲染**：笔记中的 Dataview 查询可在导出中正确渲染
 - **Live Photos**（macOS）：嵌入媒体可导出为实况照片
 - **移动端适配**：导出位置可选用系统分享 / 相册等移动端方案
+
+## 效果展示
+#### 移动端
+<img width="125" height="300" alt="image_1791783615536" src="https://github.com/user-attachments/assets/a657b45e-6ea2-4079-a95e-6189838be12c" />
+
+#### 平板/桌面端
+<img width="300" height="200" alt="image_1791783689722" src="https://github.com/user-attachments/assets/bf8ee822-8d50-4bbf-be55-67c5f5c5543a" />
+<img width="300" height="200" alt="image_1791783687304" src="https://github.com/user-attachments/assets/83b6ba32-b522-4c3b-a3b3-90220a446d9b" />
+
+#### 导出效果
+<img width="135" height="180" alt="image_1791783619326" src="https://github.com/user-attachments/assets/06b2a387-be76-4624-a13f-256a0d7a46f4" />
+<img width="135" height="180" alt="image_1791783620729" src="https://github.com/user-attachments/assets/500ae3d4-2ee8-432e-9f91-2f11f6bc7e82" />
+<img width="135" height="180" alt="image_1791783621845" src="https://github.com/user-attachments/assets/68bec592-5bc2-4160-915c-c9a1f06c4634" />
+<img width="135" height="180" alt="image_1791783623172" src="https://github.com/user-attachments/assets/f161098b-5523-49df-9cdb-b03e801993b7" />
+
+
 
 ## 安装
 
@@ -19,6 +35,11 @@ Obsidian 插件：把 Markdown 笔记一键导出为**小红书风格长图**或
 2. 解压得到 `main.js`、`manifest.json`、`styles.css`
 3. 放入 Obsidian 仓库的 `.obsidian/plugins/export-md-notes/` 目录
 4. 重启 Obsidian 或刷新插件列表，在设置中启用 Export MD notes
+
+### 注
+- release获取最新zip，文件体积较大（37m）是因为包含了内置字体资源assert，可按需保留或去除。
+- 打开md文档，点击导出为图片，按个人偏好设置参数，调整布局排版；最新版多图可选择导出范围；
+
 
 ## 从源码构建
 
