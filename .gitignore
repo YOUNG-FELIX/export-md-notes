@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+
+# 构建产物（分发走 GitHub Releases）
+pkg_*/
+
+# Release 安装包（通过 Releases 附件分发，不入仓库）
+export-md-notes-*-install.zip
+
+# 本地环境
+.obsidian/
+.obsidian.workspace
+.Trash-*/
+.DS_Store
+Thumbs.db
+*.log
+
+# 密钥与临时文件
+.env
+.env.*
+temp/
+*.tmp

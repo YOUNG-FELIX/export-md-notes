@@ -1,0 +1,15 @@
+{
+  "name": "export-md-notes",
+  "version": "1.6.25",
+  "description": "Obsidian plugin: export Markdown notes to long images or paginated Xiaohongshu-style cards",
+  "private": true,
+  "scripts": {
+    "build": "node build-1625.js",
+    "build:1624": "node build-1624.js"
+  },
+  "devDependencies": {
+    "dom-to-image-more": "^3.11.0",
+    "esbuild": "^0.28.0",
+    "modern-screenshot": "^4.7.0"
+  }
+}
