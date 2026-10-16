@@ -245,8 +245,9 @@ node build-1625.js
 
 ## 更新日志
 
-当前版本：**1.6.25**
+当前版本：**1.6.26**
 
+- 1.6.26：版本推进，重新构建发布
 - 1.6.25：长图预览保留原生 iframe；仅在导出截图前临时替换视频封面，封面拉取失败时保留原生播放器，不再显示占位符
 - 1.6.24：iframe 双链路修复（分页链路识别 B 站播放器地址 + 长图封面替换）
 - 1.6.21–1.6.23：渲染页输入框布局与宽度优化
@@ -512,8 +513,9 @@ Entry points: `main.ts` (plugin) and `modal.ts` (export dialog). Presets live in
 
 ## Changelog
 
-Current version: **1.6.25**
+Current version: **1.6.26**
 
+- 1.6.26: Version bump, rebuilt release
 - 1.6.25: Long-image preview keeps native iframes; video covers are swapped only at capture time, and failed cover fetches keep the original embed instead of a placeholder
 - 1.6.24: iframe fixes on both pipelines (Bilibili player URLs in pagination + cover replacement in long images)
 - 1.6.21–1.6.23: Render-page input layout and width refinements

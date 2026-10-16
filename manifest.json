@@ -1,7 +1,7 @@
 {
   "id": "export-md-notes",
   "name": "Export MD notes",
-  "version": "1.6.25",
+  "version": "1.6.26",
   "minAppVersion": "1.6.6",
   "description": "Export Markdown notes to full-length long images or paginated Xiaohongshu-style cards. Desktop and mobile supported; macOS can export embedded media as Live Photos.",
   "author": "Marvis, Felix",
